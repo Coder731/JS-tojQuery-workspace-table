@@ -66,5 +66,5 @@ $(document).ready(function() {
 
     $("#myButton").removeClass("blueBox").addClass("border");
     $("p").css("color", "blue").slideUp(2000).slideDown(2000);
-    $("a").attr("href", "http://www.example.com");
+    $("a").attr("href", "http://www.example.com"); // attr function acts both as a getter and as a setter 
 }); 
